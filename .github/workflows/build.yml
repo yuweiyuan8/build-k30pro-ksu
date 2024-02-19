@@ -16,7 +16,7 @@ on:
         description: '内核代码分支/Tag'
         required: false
         type: string
-        default: 'master'
+        default: 'miui'
       config_name:
         description: '内核编译配置文件名'
         required: false
@@ -37,7 +37,7 @@ jobs:
 
   build_kernel:
 
-    name: Build K40 Kernel
+    name: Build K30 pro Kernel
 
     runs-on: ubuntu-22.04
 
