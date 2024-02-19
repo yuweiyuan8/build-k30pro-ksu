@@ -21,7 +21,7 @@ on:
         description: '内核编译配置文件名'
         required: false
         type: string
-        default: 'alioth_hylab_defconfig'
+        default: 'lmi_defconfig'
       git_url:
         description: '内核仓库地址'
         required: false
